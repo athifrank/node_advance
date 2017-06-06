@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="sitelock-site-verification" content="2094" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- Page Title-->
+<title>Yogi Vemana University</title>
+
+<!-- Fav icon-->
+<link href="images/favicon.png" rel="shortcut icon" />
+
+<!-- Style Sheets-->
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+
+
+<!-- Library files-->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.dropdownPlain.js"></script>
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- Banner slide animation--> 
+	<script>
+	$(document).ready(function() {
+	$(".fancybox").fancybox();
+});
+	</script>  <!-- Jquery Notifiction tab script-->
+<script type="text/javascript" language="javascript">
+$(document).ready(function() {
+
+	//When page loads...
+	$(".tab_content").hide(); //Hide all content
+	$("ul.tabs li:first").addClass("active").show(); //Activate first tab
+	$(".tab_content:first").show(); //Show first tab content
+
+	//On Click Event
+	$("ul.tabs li").click(function() {
+
+		$("ul.tabs li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(".tab_content").hide(); //Hide all tab content
+
+		var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active ID content
+		return false;
+	});
+
+});
+</script>
+<style>
+.temp{color:#F54242; font-size:16px; text-decoration:blink; font-weight:bolder; font-family:Arial, Helvetica, sans-serif; margin-top:20px; 
+border:#666 1px solid; padding:10px;}
+.temp a{color:inherit; text-decoration:none;}
+td {
+    border: none !important;
+}
+</style>
+</head>
+
+<body>
+<!-----Header starts ---->
+<style>
+div#logo_gold {
+    background-image: url("images/goldlogo.png");
+    width: 121px;
+    height: 116px;
+    float: right;
+}
+#logo_text {
+    float: left;
+    /* background: url(../images/logo_text.png) no-repeat; */
+    width: 680px;
+    height: 30px;
+    margin-top: 35px;
+}
+.body .temp {
+    height: 13px !important;
+   /* bottom: 0px; */
+    /* top: 40px; */
+	border:none;
+    margin-top: 60px;
+    padding: 8px;
+}
+#top_menu {
+    float: right;
+    width: 940px;
+    height: 30px;
+    margin: 8px 0 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+    height: 150px;
+    margin-top: 50px;
+    background-color: #2a1d15;
+}
+</style>
+<div id="header">
+	<div class="body">
+ 		<div id="logo"></div>
+     	<div id="logo_text">
+			<div class="temp" style="font-size:23px;">
+            <marquee behavior="scroll" direction="left"  	scrollamount="4">
+               <!--<font color="yellow">		
+				 UNIVERSITY BAGGED 92nd RANK AMONG THE TOP 100 INSTITUTIONS/ UNIVERSITIES IN NIRF SURVEY OF MHRD (GOI) AND 3rd IN THE STATE OF ANDHRA PRADESH.  
+			  </font>
+			  <font color="red">		
+				 ACCREDITED WITH B GRADE  BY  NAAC ( 2.54 CGPA)
+			  </font>-->
+			  <a href="downloads/NIRF-2017 docs.rar">
+			  <font color="yellow">
+			  NATIONAL INSTITUTIONAL RANKING FRAMEWORK-2017 (NIRF)
+              </font>
+              </a>
+			   &nbsp;&nbsp;&nbsp;
+             <a href="http://www.yvudoa.org/" target="__blank">
+			  <font color="yellow">
+			  YVUCET-2017
+              </font>
+              </a>
+			</marquee>
+		</div> 
+		</div>
+		<div id="logo_gold"></div>
+		
+  		<div id="top_menu">
+            <ul class="dropdown">
+                    <!-- Menu1 
+                    <li><a href="index.php">Home</a></li> -->
+                    <!-- Menu2 -->
+                    <li><a href="#">About us</a>
+						<ul class="sub_menu">
+						  <li><a href="about_yvu.php">About YVU</a></li>
+						  <li><a href="gov.php">Chancellor</a></li>
+						  <li><a href="#">VC's Message</a></li>
+						  <li><a href="vc_prof.php">VC's Profile</a></li>
+						 <!-- <li><a href="#">Rector's Profile</a></li>-->
+						  <li><a href="reg_prof.php">Registrar's Profile</a></li>
+						  <li><a href="../colleges/ss_ec_satyanarayana.php">Principal's Profile</a></li>
+						  <li><a href="../colleges/hu_en_gulam.php">Vice Principal's Profile</a></li>						  
+						  <li><a href="admin_wing.php">Administrative Wing</a></li>
+					   </ul>
+                    </li>
+                    <!-- Menu3 -->
+                    <li><a href="administration.php">Administration</a></li>
+                    <!-- Menu4 -->
+                    <li><a href="#">Academic</a>
+                                    <ul class="sub_menu">
+                          <li><a href="cdc.php">College Development Council</a></li>                          
+                       </ul>
+                    </li>
+                    <!-- Menu5 -->
+                    <li><a href="#">Colleges</a>
+                                    <ul class="sub_menu">
+                          <li><a href="#Under_Construction">Y.V.University College, Kadapa</a>
+                                <ul class="sub_menu">
+                                    <li><a href="departments.php">Departments</a>
+									<ul class="sub_menu">                               
+                               <li><a href="colleges/">Applied Mathematics</a></li>
+                               <li><a href="colleges/mc_ca.php">Computer Applications</a></li>
+                                                           
+                               <li><a href="colleges/ps_ch.php">Chemistry</a></li>
+                               <li><a href="colleges/ps_ge.php">Geology </a></li>
+                               <li><a href="colleges/ps_ms.php">Materials Science and Nanotechnology</a></li>
+                               <li><a href="colleges/ps_ph.php">Physics</a></li>
+                                                             
+                               <li><a href="colleges/ls_bc.php">Biochemistry</a></li>
+                               <li><a href="colleges/ls_bt.php">Biotechnology</a></li>
+                               <li><a href="colleges/ls_bo.php">Botany</a></li>
+                               <li><a href="colleges/ls_es.php">Environmental Sciences</a></li>
+                               <li><a href="colleges/ls_gg.php">Genetics & Genomics</a></li>
+                               <li><a href="colleges/ls_mb.php">Microbiology</a></li>
+                               <li><a href="colleges/ls_ps.php">Psychology</a></li>
+                               <li><a href="colleges/ls_zo.php">Zoology</a></li>
+                                                                
+                               <li><a href="colleges/ms_co.php">Commerce</a></li>
+                               <li><a href="colleges/ms_bm.php">Business Management</a></li>
+                             
+                                                          
+                               <li><a href="colleges/ss_ec.php">Economics</a></li>
+                               <li><a href="colleges/ss_hi.php">History & Archaeology</a></li>
+                               <li><a href="colleges/ss_ps.php">Political Science & Public Administration</a></li>
+                             
+                                                         
+                               <li><a href="colleges/hu_en.php">English</a></li>
+                               <li><a href="colleges/hu_tl.php">Telugu</a></li>
+                               <li><a href="colleges/hu_fa.php">Fine Arts</a></li>
+                               <li><a href="colleges/hu_jc.php">Journalism and Communication</a></li>
+                             
+                                                      
+                               <li><a href="colleges/es_es.php">Earth Sciences</a></li>
+                               <li><a href="colleges/es_bb.php">Biotechnology & Bioinformatics</a></li>
+                             
+                          <li><a href="colleges/pe_sp.php">Physical Education & Sports</a></li>
+                       </ul>
+                    </li>
+					</ul>
+                          </li>
+                          <li><a href="ysr/">YSR Engineering College,Proddatur</a>
+                            <ul class="sub_menu">
+                                    <li><a href="#Under_Construction">Principal</a>
+                                    <li><a href="ysr/">Office</a>
+                            </ul>
+                          </li>
+                          <li><a href="#Under_Construction">Affiliated Colleges</a></li>
+						    </li>              	
+            </li>
+			</ul>
+			</li>
+                          
+                    <!-- Menu6 -->
+                    <li><a href="#">Examination Cell</a>
+                        <ul class="sub_menu">                            
+                            <li><a href="doe.php">Controller of Examinations</a></li>                            
+                        </ul>
+                    </li>
+                    <!-- Menu6.1 -->
+                    <li><a href="eoc.php">E.O.Cell</a>
+                    <!--    <ul class="sub_menu">
+                            <li><a href="sc_st_director.php">Coordinator</a></li>
+                        </ul> -->
+                    </li>
+                    <!-- Menu7 -->
+                    <li><a href="admission.php">Admissions</a></li>
+                    <!-- Menu8 -->
+                    <li><a href="courses.php">Courses</a></li>
+                    <!-- Menu9 -->
+                    <li><a href="colleges/faculty_dean.php">Deans</a>
+                        
+                    </li>
+                    <!-- Menu10 -->
+                    <li><a href="contactus.php">Contact us</a></li>
+                 </ul>
+        </div>
+ 	</div>
+</div>
+<!----- Header ends ---->
+
+<!----- Banner starts ---->
+<div id="banner">
+
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+<style>
+.carousel-inner > .item > img{
+height:140px;
+}
+article.accordion
+{	display: block;
+	width: 67em;
+	margin: 0 auto;
+	background:white;
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+}
+.carousel-indicators {
+    bottom: 0px !important;
+}
+article.accordion section
+{
+	position: relative;
+	display: block;
+	float: left;
+	width: 16em;
+	height: 14em;
+	margin: 0.5em 0 0.5em 0.5em;
+	color: #333;
+	background-color: #1D8C8C;
+	overflow: hidden;
+	border-radius: 3px;
+}
+article.accordion section h2
+{
+	position: absolute;
+	font-size: 1em;
+	font-weight: bold;	
+	left: 0;
+	top:10em;
+	text-indent: 1em;
+	padding: 0;
+	margin: 0;
+	color: #ddd;	
+}
+article.accordion section h2 a
+{
+	display: block;
+	width: 100%;
+	line-height: 26px;
+	text-align: center;
+	text-decoration: none;
+	color: inherit;
+	outline: 0 none;
+	font-size: 17px;
+}
+article.accordion section:target
+{
+	color: #333;
+	background-color: #1d8c8c;
+}
+.accordion>section>img, .item>a>img {
+    height: 136px;
+}
+#acc3 h2 a,#acc1 h2 a {
+    margin-left: 10px;
+	margin-top: 11px;
+}
+article.accordion section:target h2
+{
+	    font-size: 0;
+	text-indent: 0;
+	color: #333;
+	
+}
+article.accordion section,
+article.accordion section h2
+{
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100% !important;
+	height: 140px;
+	}
+.carousel {
+height: 140px;
+}
+</style>
+<article class="accordion">
+	<section id="acc3">
+		<h2><a href="video.php">Heritage of Kadapa</a></h2>
+		<img src="sliderimg/heritage/1.jpg" width="100%"/>
+	</section>	
+	<section id="acc1">
+		<h2><a href="#">YVU Main Campus</a></h2>		
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>	
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <a class="fancybox" href="sliderimg/1.jpg"  rel="group"><img src="sliderimg/1.jpg" alt="Chania"/></a>
+      </div>
+      <div class="item">
+        <a class="fancybox" href="sliderimg/2.jpg"  rel="group"><img src="sliderimg/2.jpg" alt="Chania"/></a>
+      </div>    
+      <div class="item">
+        <a class="fancybox" href="sliderimg/3.jpg"  rel="group"><img src="sliderimg/3.jpg" alt="Flower"/></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/4.jpg" class="fancybox" rel="group"><img src="sliderimg/4.jpg" alt="Flower"/></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/5.jpg" class="fancybox" rel="group"><img src="sliderimg/5.jpg" alt="Chania"/></a>
+      </div>    
+      <div class="item">
+       <a href="sliderimg/6.jpg" class="fancybox" rel="group"> <img src="sliderimg/6.jpg" alt="Flower"/></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/7.jpg" class="fancybox" rel="group"><img src="sliderimg/7.jpg" alt="Flower"/></a>
+      </div>
+	<div class="item">
+        <a href="sliderimg/8.jpg" class="fancybox" rel="group"><img src="sliderimg/8.jpg" alt="Chania"/></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/9.jpg" class="fancybox" rel="group"><img src="sliderimg/9.jpg" alt="Flower"/></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/10.jpg" class="fancybox" rel="group"><img src="sliderimg/10.jpg" alt="Flower"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/11.jpg" class="fancybox" rel="group"><img src="sliderimg/11.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/12.jpg" class="fancybox" rel="group"><img src="sliderimg/12.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/13.jpg" class="fancybox" rel="group"><img src="sliderimg/13.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/14.jpg" class="fancybox" rel="group"><img src="sliderimg/14.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/15.jpg" class="fancybox" rel="group"><img src="sliderimg/15.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/16.jpg" class="fancybox" rel="group"><img src="sliderimg/16.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/17.jpg" class="fancybox" rel="group"><img src="sliderimg/17.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/18.jpg" class="fancybox" rel="group"><img src="sliderimg/18.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/19.jpg" class="fancybox" rel="group"><img src="sliderimg/19.jpg" alt="Flower" width="100%"></a>
+      </div>
+	<div class="item">
+        <a href="sliderimg/20.jpg" class="fancybox" rel="group"><img src="sliderimg/20.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/21.jpg" class="fancybox" rel="group"><img src="sliderimg/21.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/22.jpg" class="fancybox" rel="group"><img src="sliderimg/22.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/23.jpg" class="fancybox" rel="group"><img src="sliderimg/23.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/24.jpg" class="fancybox" rel="group"><img src="sliderimg/24.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/25.jpg" class="fancybox" rel="group"><img src="sliderimg/25.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/26.jpg" class="fancybox" rel="group"><img src="sliderimg/26.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/27.jpg" class="fancybox" rel="group"><img src="sliderimg/27.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/28.jpg" class="fancybox" rel="group"><img src="sliderimg/28.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/29.jpg" class="fancybox" rel="group"><img src="sliderimg/29.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/30.jpg" class="fancybox" rel="group"><img src="sliderimg/30.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/31.jpg" class="fancybox" rel="group"><img src="sliderimg/31.jpg" alt="Flower" width="100%"></a>
+      </div>
+	<div class="item">
+        <a href="sliderimg/32.jpg" class="fancybox" rel="group"><img src="sliderimg/32.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/33.jpg" class="fancybox" rel="group"><img src="sliderimg/33.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/34.jpg" class="fancybox" rel="group"><img src="sliderimg/34.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/35.jpg" class="fancybox" rel="group"><img src="sliderimg/35.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a class="fancybox" href="sliderimg/36.jpg" class="fancybox" rel="group"><img src="sliderimg/36.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a class="fancybox" href="sliderimg/37.jpg"  rel="group"><img src="sliderimg/37.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  
+	  
+	  <div class="item">
+        <a href="sliderimg/43.jpg" class="fancybox" rel="group"><img src="sliderimg/43.jpg" alt="Chania" width="100%"></a>
+      </div> 
+	  <div class="item">
+        <a href="sliderimg/44.jpg" class="fancybox" rel="group"><img src="sliderimg/44.jpg" alt="Chania" width="100%"></a>
+      </div> 
+	  <div class="item">
+        <a href="sliderimg/45.jpg" class="fancybox" rel="group"><img src="sliderimg/45.jpg" alt="Chania" width="100%"></a>
+      </div> 
+	  <div class="item">
+        <a href="sliderimg/46.jpg" class="fancybox" rel="group"><img src="sliderimg/46.jpg" alt="Chania" width="100%"></a>
+      </div> 
+	  <div class="item">
+        <a href="sliderimg/47.jpg" class="fancybox" rel="group"><img src="sliderimg/47.jpg" alt="Chania" width="100%"></a>
+      </div> 
+    </div>
+</div>
+	</section>	
+	<section id="acc2">
+		<h2><a href="#">Treasure of Botanical Garden</a></h2>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>	
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <a class="fancybox" href="sliderimg/botany/1.jpg"  rel="group"><img src="sliderimg/botany/1.jpg" alt="Chania"/></a>
+      </div>
+      <div class="item">
+        <a class="fancybox" href="sliderimg/botany/2.jpg"  rel="group"><img src="sliderimg/botany/2.jpg" alt="Chania"/></a>
+      </div>    
+      <div class="item">
+        <a class="fancybox" href="sliderimg/botany/3.jpg"  rel="group"><img src="sliderimg/botany/3.jpg" alt="Flower"/></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/botany/4.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/4.jpg" alt="Flower"/></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/5.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/5.jpg" alt="Chania"/></a>
+      </div>    
+      <div class="item">
+       <a href="sliderimg/botany/6.jpg" class="fancybox" rel="group"> <img src="sliderimg/botany/6.jpg" alt="Flower"/></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/botany/7.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/7.jpg" alt="Flower"/></a>
+      </div>
+	<div class="item">
+        <a href="sliderimg/botany/8.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/8.jpg" alt="Chania"/></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/botany/9.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/9.jpg" alt="Flower"/></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/botany/10.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/10.jpg" alt="Flower"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/11.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/11.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/botany/12.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/12.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/botany/13.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/13.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/14.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/14.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/botany/15.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/15.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/botany/16.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/16.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/17.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/17.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/botany/18.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/18.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/botany/19.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/19.jpg" alt="Flower" width="100%"></a>
+      </div>
+	<div class="item">
+        <a href="sliderimg/botany/20.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/20.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/botany/21.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/21.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/botany/22.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/22.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/23.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/23.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/botany/24.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/24.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/botany/25.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/25.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/26.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/26.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/botany/27.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/27.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/botany/28.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/28.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/29.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/29.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/botany/30.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/30.jpg" alt="Flower" width="100%"></a>
+      </div>
+      <div class="item">
+        <a href="sliderimg/botany/31.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/31.jpg" alt="Flower" width="100%"></a>
+      </div>
+	<div class="item">
+        <a href="sliderimg/botany/32.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/32.jpg" alt="Chania" width="100%"></a>
+      </div>    
+      <div class="item">
+        <a href="sliderimg/botany/33.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/33.jpg" alt="Flower" width="100%"></a>
+      </div>
+		<div class="item">
+        <a href="sliderimg/botany/1-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/1-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/2-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/2-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/3-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/3-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/4-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/4-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/5-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/5-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/6-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/6-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/7-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/7-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/8-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/8-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/9-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/9-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/10-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/10-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/11-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/11-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/12-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/12-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/13-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/13-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/14-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/14-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/15-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/15-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/16-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/16-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/17-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/17-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/18-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/18-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/19-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/19-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/20-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/20-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/21-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/21-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/22-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/22-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/23-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/23-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/24-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/24-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/25-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/25-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/26-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/26-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/27-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/27-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/28-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/28-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/29-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/29-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/30-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/30-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/31-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/31-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/32-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/32-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/33-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/33-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/34-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/34-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/35-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/35-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/36-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/36-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/37-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/37-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/38-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/38-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/39-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/39-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/40-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/40-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/41-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/41-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/42-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/42-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/43-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/43-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/44-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/44-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/45-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/45-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/46-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/46-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/47-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/47-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/48-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/48-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/49-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/49-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/50-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/50-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/51-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/51-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/52-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/52-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  <div class="item">
+        <a href="sliderimg/botany/53-min.jpg" class="fancybox" rel="group"><img src="sliderimg/botany/53-min.jpg" alt="Flower" width="100%"></a>
+      </div>
+	  
+    </div>
+</div>	</section>	
+	<section id="acc4">
+		<h2><a href="ysr/">YSR Engineering College of YV University</a></h2>
+		<img src="sliderimg/ysr/1.jpg" width="100%"/>
+	</section>
+</article>	<!--<div class="body">
+        <div id='coin-slider'>
+        <img src='images/b1.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+        <img src='images/b2.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+        <!--<img src='images/b3.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+        <img src='images/b4.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+       <img src='images/b5.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+        <img src='images/b6.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+     <img src='images/b7.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+		<img src='images/b8.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+		<img src='images/b9.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+		<img src='images/b10.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+		<img src='images/b11.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+		<img src='images/b12.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+		<img src='images/b13.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+		<img src='images/b14.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+		<img src='images/b15.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+		<img src='images/b16.jpg' >
+		<span><b>Yogi Vemana University Kadapa Campus</b></span>
+        </div>
+    </div>-->
+</div>
+<!----- Banner ends ---->
+           
+<!-----Content starts ---->
+<div id="content" style="background: #E2E2E2; color: #E4E4E4;">
+		<div id="panel1">
+			            <div><button type="button" onclick="document.location.href='index.php';">Home page</button></div>
+            <div><button type="button" onclick="document.location.href=' https://yvucdc.in';">YVU CDC</button></div>
+
+            <div><button type="button" onclick="document.location.href='facilities.php';">Facilities</button></div>
+
+            <div><button type="button" onclick="document.location.href='library.php';">Library</button></div>
+
+            <div><button type="button" onclick="document.location.href='hostels.php';">Hostels</button></div>
+
+            <div><button type="button" onclick="document.location.href='gallery/';">Photogallery</button></div>
+
+            <div><button type="button" onclick="document.location.href='#Under_Construction';">Achievements</button></div>
+
+            <div><button type="button" onclick="document.location.href='results.php';">Results</button></div>
+
+            <div><button type="button" onclick="document.location.href='downloads.php';">Downloads</button></div>
+
+            <div><button type="button" onclick="document.location.href='tenders.php';">Tenders</button></div>
+
+            <div><button type="button" onclick="document.location.href='seminars.php';">Seminars</button></div>
+            
+            <div><button type="button" onclick="document.location.href='former_vc.php';">Former VC's</button></div>
+			
+			<div><button id="button" type="button" onclick="document.location.href='pgcourses.php';">Syllabus(PG Courses)</button></div>
+
+            <div><button type="button" onclick="document.location.href='http://mail.yogivemanauniversity.ac.in';">Faculty Mail</button></div>
+			
+			<div><button type="button" onclick="document.location.href='archives.php';">Archives</button></div>
+			
+			<div><button type="button" onclick="document.location.href='sports1.php';">Sports Facilities</button></div><br />
+			
+			 <a href="video.php"><img src="images/heritage.jpg" /></a>
+			 <a href="botanical/Botanical Garden  Report at Yogi Vemani University.pdf"><img src="images/botany.jpg" /></a>
+			 <a href="yvu  e news letter.pdf" target="__blank"><img src="e-letter.png" /></a><br />
+			 <a href="iqac.php" ><img src="images/iqac.png" /></a>
+			 <map name="Map" id="Map"><area shape="rect" coords="16,16,111,48" href="college_downloads.php" /></map><br /><br />
+			 <a href="NSS/" target="__blank"><img src="NSS/menu.jpg" height="50" /></a><br />
+			 <a href="http://yvudoa.in/" target="__blank"><img src="images/yvu.jpg" height="50" /></a><br />
+			 
+			 
+          <!--   <map name="Map" id="Map"><area shape="rect" coords="10,10,111,48" href="IQAC website page AND LETT.pdf" /></map>-->
+		</div>
+        
+        <div id="panel3">
+          <!--panel3 starts-->
+        	<div class="title">Yogi Vemana University</div>
+            <div class="text" style="color:#4A4A4A;font-weight:600">
+            	<p>As an Emerging Premier State Varsity dedicated to Teaching, Research and Service Yogi Vemana University came into existence by the Act of the Andhra Pradesh State Legislative Assembly with effect from March 9th 2006. It is located 15 km away from Kadapa city on the Kadapa-Pulivendula Road.</p>
+            	</div>
+            
+          <div class="title">Objectives</div>
+          <div class="text">
+            	Creation and dissemination of knowledge.<br />
+            	Attainment of enlightened wisdom through advancement of learning.<br />
+            	Progress and prosperity of people and social enrichment.
+          </div>
+            
+            <div class="title">Core Values</div>
+            <div class="text">
+              Basic moral and ethical standards in pursuit of true knowledge.
+            	<br />Academic freedom and debate.
+            	<br />A challenging academic and spinted environment.
+            </div>
+           <!--	<div>
+				<img src="images/convocation.jpg" width="100% !important" height="400px !important"/>
+			</div>-->
+            <div class="temp">
+            	<a href="college_downloads.php">Information for Affiliated colleges</a>
+            </div>
+		<!--	<div class="temp" style="font-size:22px;">
+            	<marquee behavior="scroll" direction="left"  	scrollamount="4">
+        
+        
+             <font color="red">		
+				 National Assessment and Accreditation Council ( NAAC) announced B Grade  with 2.54 CGPA for Yogi Vemana University on 19.01.2016	
+			</font>
+		</marquee>
+		</div> -->
+		
+		<!--	<div class="temp" style="font-size:16px;">
+            	
+			<marquee behavior="scroll" direction="left"  	scrollamount="4">
+	      
+				<font color="red">		
+					<a target="_blank" href="http://convocation.yvuexams.in/">Click here for Convocation online application</a>
+				</font>
+			
+			</marquee>
+		
+            </div>  -->		
+			<br />
+    		<div class="temp" style="font-size:16px;">
+            	
+			<marquee behavior="scroll" direction="left"  	scrollamount="4">
+	      
+				<font color="green">		
+					YVUCET-2017 Application Deadline is Extended Upto 26th May 2017 Without Fine.
+				</font>&nbsp;&nbsp;
+				<font >
+				YVUCET-2017 Entrance Examination will be held on 05-06-2017 & 06-06-2017.  Please download the hall tickets from the website:<font color="#1e8c8d"><a href="http://www.yvudoa.org/" target="__blank">www.yvudoa.org</a></font>
+				</font>
+			
+			</marquee>
+		
+            </div>
+            <br />
+           	  <ul class="tabs">
+    			<li><a href="#tab1">Notifications</a></li>
+    			<li><a href="#tab2">News</a></li>
+                <li><a href="#tab3">Events</a></li>
+			</ul>
+
+			<div class="tab_container">
+               <div id="tab1" class="tab_content">
+               <!-- Notification -->
+                    <ul>
+                       <li><a href="downloads/YVUCET-2017-Entrance Schedule.docx" target="_blank">YVUCET-2017 Entrance Examination Schedule</a> - posted on 31-5-2017<img src="images/new.gif" style="margin:0 5px 0 3px;"/></li><li><a href="downloads/B.P.ED D.P.ED DEC 2016 RV.pdf" target="_blank">B.P.Ed and D.P.Ed- III Semester-RV Notification</a> - posted on 20-5-2017</li><li><a href="downloads/3 YR 5YR LAWTIMETABLE021.pdf" target="_blank">Examinations- 3 Year (I,III and V semesters) and 5 Year (I,III,V,VII and IX semesters) Law Time Table-June/July 2017 </a> - posted on 19-5-2017</li><li><a href="downloads/B.Ed I & III Sem Re-Va Fee021.pdf" target="_blank">I and III Semester B.Ed RV Fee Notification</a> - posted on 16-5-2017</li><li><a href="downloads/YVU-CAS.zip" target="_blank">Yogi Vemana University- Career Advancement Scheme (CAS) for Regular Faculty– Notification – Rules and Regulations – Application format - Last date: 30.05.2017</a> - posted on 9-5-2017</li><li><a href="downloads/II sem.pdf" target="_blank">Controller of Examinations- II Semester B.P.Ed & D.P.Ed Examination Time Table</a> - posted on 24-4-2017</li><li><a href="downloads/BG SRF JRF Notification_yvu web final.doc" target="_blank">Department of Botany - MoEF & CC and BSI Project- Notification for JRF/JPF appointment-Date Extended</a> - posted on 21-4-2017</li><li><a href="downloads/BSCNET.pdf" target="_blank">Revaluation Marks for B.Sc.NOVEMBER-2016 Examinations</a> - posted on 8-4-2017</li><li><a href="downloads/BCOMNET.pdf" target="_blank">Revaluation Marks for B.Com. NOVEMBER-2016 Examinations</a> - posted on 8-4-2017</li><li><a href="downloads/BBMNET.pdf" target="_blank">Revaluation Marks for BBM NOVEMBER-2016 Examinations</a> - posted on 8-4-2017</li><li><a href="downloads/BANET.pdf" target="_blank">Revaluation Marks for B.A. NOVEMBER-2016 Examinations</a> - posted on 8-4-2017</li><li><a href="downloads/BGjrf070417.doc" target="_blank">Department of Botany - MoEF & CC and BSI Project- Notification for JRF/JPF appointment-Last date:27-04-2017</a> - posted on 7-4-2017</li><li><a href="downloads/Model question papers.rar" target="_blank">UG - Model Question Papers </a> - posted on 4-4-2017</li><li><a href="downloads/YVUCET-2017 Notification-yvu web.docx" target="_blank">YVUCET-2017::Notification</a> - posted on 3-4-2017</li><li><a href="downloads/fwdugypandiiivsemexamtt.zip" target="_blank">UG -Year Pattern and II & IV Semesters Examinations- Time Table</a> - posted on 29-3-2017</li><li><a href="downloads/LAW 3 Y 5 Y Exam fee Noti MayJune 2017.pdf" target="_blank">Law 3 Year (I, III, V semesters) and 5 Year (I, III, V, VII, IX semesters)-regular/supplementary Fee Notification</a> - posted on 28-3-2017</li><li><a href="downloads/LAW 3y&5Y RV dates Nov-2016.pdf" target="_blank">Law 3 Year & 5 Year- RV Notification</a> - posted on 23-3-2017</li><li><a href="downloads/LLB5NET1.pdf" target="_blank">5 year Law Revaluation Results I Semesters</a> - posted on 17-3-2017</li><li><a href="downloads/LLB5NET3.pdf" target="_blank">5 year Law Revaluation Results III Semesters</a> - posted on 17-3-2017</li><li><a href="downloads/LLB5NET5.pdf" target="_blank">5 year Law Revaluation Results V Semesters</a> - posted on 17-3-2017</li><li><a href="downloads/LLB5NET7.pdf" target="_blank">5 year Law Revaluation Results VII Semesters</a> - posted on 17-3-2017</li><li><a href="downloads/LLB5NET9.pdf" target="_blank">5 year Law Revaluation Results IX Semesters</a> - posted on 17-3-2017</li><li><a href="downloads/LLB3NET1.pdf" target="_blank">3 year Law Revaluation Results I Semesters </a> - posted on 17-3-2017</li><li><a href="downloads/LLB3NET3.pdf" target="_blank">3 year Law Revaluation Results III Semesters </a> - posted on 17-3-2017</li><li><a href="downloads/LLB3NET5.pdf" target="_blank">3 year Law Revaluation Results V Semesters </a> - posted on 17-3-2017</li><li><a href="downloads/Revised Circular - OTO.pdf" target="_blank">Controller of Examinations- One time opportunity for UG students to appear for the examination-April 2017</a> - posted on 7-3-2017</li><li><a href="downloads/B.PEd II Sem Result 2016.pdf" target="_blank">Yogi Vemana University- B.P.Ed. II Semester -Results</a> - posted on 3-3-2017</li><li><a href="downloads/D.PEd II Sem Result 2016.pdf" target="_blank">Yogi Vemana University- D.P.Ed. II Semester -Results</a> - posted on 3-3-2017</li><li><a href="downloads/UG Exam Fee Date Extended (Sem pattern).docx" target="_blank">UG Examinations (Semester pattern) - Fee Date Extended</a> - posted on 1-3-2017</li><li><a href="downloads/UG Exam Fee Date Extended (Year pattern).docx" target="_blank">UG Examinations (Year pattern) - Fee Date Extended</a> - posted on 1-3-2017</li><li><a href="downloads/National Science Day.jpg" target="_blank">Yogi Vemana University College- National Science Day celebrations(28th Feb. to 1st March, 2017 )-Information regarding arranging exhibition</a> - posted on 25-2-2017</li><li><a href="downloads/PG EXAM FEE.pdf" target="_blank">PG Examinations - II and IV Semester Fee Notification-March/April 2017</a> - posted on 23-2-2017</li><li><a href="downloads/UG NOTIFICATION YEAR PATTERN FEE April-May 2017 (2).pdf" target="_blank">UG Year Pattern Examinations-Fee Notification-April/May 2017</a> - posted on 14-2-2017</li><li><a href="downloads/UG NOTIFICATION SEMESTER FEE April-May 2017 (1).pdf" target="_blank">UG Semester Pattern Examinations-Fee Notification-April/May 2017</a> - posted on 14-2-2017</li><li><a href="downloads/B.Ed I & III Semester Time-Table.jpg" target="_blank">B.Ed I & III Semester Examinations Time Table- Feb.2017</a> - posted on 3-2-2017</li><li><a href="downloads/UG RV Notification 2017.doc" target="_blank">UG - RV Notification- 2017</a> - posted on 1-2-2017</li><li><a href="http://ug.yvuexams.in/ugn16results.aspx" target="_blank">Degree Results Nov/Dec-2016</a> - posted on 28-1-2017</li><li><a href="downloads/NHRC-workshop_-brochure.doc" target="_blank">NHRC sponsored one-day training programme on rights of women</a> - posted on 20-1-2017</li><li><a href="downloads/advt-acd-2017 001.jpg" target="_blank">Academic consultants Notification</a> - posted on 7-1-2017</li><li><a href="downloads/BEDexamresults.PDF" target="_blank"> BEd-I semester Revaluation  results.</a> - posted on 7-1-2017</li><li><a href="downloads/B.Ed II Sem & Supple Re-Valuation Fee.jpg" target="_blank">B.Ed. II Sem. & Year Pattern (Supplementary) Revaluation Fee Notification</a> - posted on 16-12-2016</li><li><a href="downloads/YV university games.zip" target="_blank"> 2nd and 3rd phase inter collegiate Men and Women Sports Tournament schedule.</a> - posted on 13-12-2016</li><li><a href="downloads/BTBI Seminar.pdf" target="_blank">Department of Biotechnology & Bioinformatics- One Day National Seminar- 30th Dec.2016</a> - posted on 10-12-2016</li><li><a href="downloads/UGtimetableNOV2016FINALYEAR.doc" target="_blank">UG-Time Table -NOV 2016 (FINAL YEAR)</a> - posted on 9-11-2016</li><li><a href="downloads/UG-Time Table -NOV 2016 (FIRST YEAR).doc" target="_blank">UG-Time Table -NOV 2016 (FIRST YEAR)</a> - posted on 9-11-2016</li><li><a href="downloads/UG-Time Table - NOV 2016 (SECOND YEAR).doc" target="_blank">UG-Time Table - NOV 2016 (SECOND YEAR)</a> - posted on 9-11-2016</li><li><a href="downloads/THIRD SEMESTER TIME TABLE NOV 2016.doc" target="_blank">THIRD SEMESTER TIME TABLE NOV 2016.doc</a> - posted on 9-11-2016</li><li><a href="downloads/FIRST SEMESTER2016-17.doc" target="_blank">FIRST SEMESTER (2016-17 admitted batch) TIME TABLE NOV 2016.doc</a> - posted on 9-11-2016</li><li><a href="downloads/FIRST SEMESTER 2015-16 BACKLOGS.doc" target="_blank">FIRST SEMESTER (2015-16 admitted batch) (BACKLOGS) TIME TABLE NOV 2016 </a> - posted on 9-11-2016</li><li><a href="downloads/law time table031116.pdf" target="_blank">Law 3 year & 5 year Examinations Time Table-Nov./Dec. 2016</a> - posted on 3-11-2016</li><li><a href="downloads/PG I & III Sem Time Table.pdf" target="_blank">YVU Examination Branch- Time Table of PG III & I Semesters Examinations- November, 2016</a> - posted on 22-10-2016</li><li><a href="downloads/Re Notification for Degree Regular CBCS Examinations November 2016 - I & III Sem.doc" target="_blank">Extension of date for payment of fee- UG degree (CBCS) first & third semester</a> - posted on 19-10-2016</li><li><a href="downloads/Revised Law Notification -2016.doc" target="_blank">Extension of date for payment of fee- LAW degree examinations</a> - posted on 19-10-2016</li><li><a href="downloads/Re Notification for Degree Supplementary Examinations November 2016.doc" target="_blank">Extension of date for payment of fee- UG degree (year pattern) supplementary examination</a> - posted on 19-10-2016</li><li><a href="downloads/RV Law.jpg" target="_blank"> Law Revaluation Fee details</a> - posted on 5-10-2016</li><li><a href="downloads/U.GI&IIISemester ExaminationNotificationFee(2).pdf" target="_blank">UG - I & III Semester Examination Notification- Fee Details- (Regular and Supplementary, CBCS)</a> - posted on 4-10-2016</li><li><a href="downloads/U.G YearPattern SupplementaryExaminationNotification Fee.pdf" target="_blank">UG Year Pattern-Supplementary Examination Notification- Fee Details</a> - posted on 4-10-2016</li><li><a href="downloads/Walk in interviews are postponed.docx" target="_blank">Walk in interviews scheduled to be held on 5th October, 2016 for hiring the services of Academic Consultants is postponed</a> - posted on 4-10-2016</li><li><a href="downloads/PG-I & III Fee.pdf" target="_blank">YVU Examination Branch- PG 1 & III Semester Examination Fees- October/November, 2016-reg.</a> - posted on 26-9-2016</li><li><a href="downloads/lawfee260916.pdf" target="_blank">YVU Examination Branch- 3/5 Year LAW Degree Examination Fees- November, 2016-reg.</a> - posted on 26-9-2016</li><li><a href="downloads/BARVcbcs.PDF" target="_blank">UG - R.V.Results-B.A. Second Semester CBCS Pattern</a> - posted on 24-9-2016</li><li><a href="downloads/BSCRVcbcs.pdf" target="_blank">UG - R.V.Results-B.Sc. Second Semester CBCS Pattern</a> - posted on 24-9-2016</li><li><a href="downloads/BCOMrvcbcs.pdf" target="_blank">UG - R.V.Results-B.Com. Second Semester CBCS Pattern</a> - posted on 24-9-2016</li><li><a href="downloads/BBARVcbcs.pdf" target="_blank">UG - R.V.Results-BBA Second Semester CBCS Pattern</a> - posted on 24-9-2016</li><li><a href="downloads/BCOMrvyear.pdf" target="_blank">UG -R.V.Results-B.Com.Year Pattern</a> - posted on 24-9-2016</li><li><a href="downloads/Bscrvyearcompr.pdf" target="_blank">UG -R.V.Results-BSc. Year Pattern</a> - posted on 24-9-2016</li><li><a href="downloads/BARVyear.pdf" target="_blank">UG -R.V.Results-B.A.Year Pattern</a> - posted on 24-9-2016</li><li><a href="downloads/BBMRVyear.pdf" target="_blank">UG -R.V.Results-BBM Year Pattern</a> - posted on 24-9-2016</li><li><a href="downloads/New Colleges Notification.pdf" target="_blank">Yogi Vemana University – Inviting the proposals from the new and old colleges for grant of affiliation for the academic year 2016-17</a> - posted on 24-9-2016</li><li><a href="downloads/B.Ed Time-Table.pdf" target="_blank">B.Ed Time-Table</a> - posted on 6-9-2016</li><li><a href="downloads/mba.pdf" target="_blank">MBA and MCA spot admissions-29th August-2016</a> - posted on 27-8-2016</li><li><a href="downloads/B.Ed Fee date Extension.pdf" target="_blank">B.Ed Degree Examinations- II Semester regular (2016-17) and Supplementary (yearly pattern) - Fee date extension.</a> - posted on 9-8-2016</li><li><a href="downloads/UGC.jpg" target="_blank">University Grants Commission Regulations- Prevention, prohibition and redressal of sexual harassment of women employees and students in higher educational institutions</a> - posted on 5-8-2016</li><li><a href="downloads/notif fees1.pdf" target="_blank">B.Ed. II Semester -Supplementary Fees</a> - posted on 29-7-2016</li><li><a href="downloads/UG RVResults-SEM - I.zip" target="_blank">UG R.V. Results - 1 SEMESTER</a> - posted on 23-7-2016</li><li><a href="downloads/B.Ed. I Sem Re-Valuation.pdf" target="_blank">B.Ed. First Semester Revaluation Notification</a> - posted on 17-7-2016</li><li><a href="downloads/B.Tech IV II April 2016 R V Notification.pdf" target="_blank">B.Tech IV/II - 2016, Revaluation Notification</a> - posted on 17-7-2016</li><li><a href="downloads/Notification for Degree Advanced Supplementary Examinations2016.pdf" target="_blank">UG (Year Pattern)-Notification for Advanced Supplementary Examination-2016</a> - posted on 13-7-2016</li><li><a href="downloads/pre_phd_exam_schedule.pdf" target="_blank">Pre-Ph.D Examination Schedule- July 2016</a> - posted on 7-7-2016</li><li><a href="downloads/RC YVU Advt.pdf" target="_blank">REFRESHER COURSE- Science Academies Refresher Course inâ€ Plant Taxonomy-Orthodox and modern aspectsâ€- 18 to 31 October, 2016- Department of Botany, Yogi Vemana University, Kadapa-516003, Andhra Pradesh</a> - posted on 28-6-2016</li><li><a href="downloads/CDC- Guidelines and application.zip" target="_blank">CDC- Guidelines and application format for transfer of students from one college to another college & from other university to Yogi Vemana University on combination of attendance/readmission-Academic year 2016-17</a> - posted on 27-6-2016</li><li><a href="downloads/CDC- Admission Procedure & Academic Schedule.zip" target="_blank">CDC- Admission Procedure & Academic Schedule of UG courses for the academic year 2016-17</a> - posted on 27-6-2016</li><li><a href="downloads/YVU CET-2016 Web Counseling Instructions - 1.docx" target="_blank">YVUCET -2016 Counseling Schedule </a> - posted on 23-6-2016</li><li><a href="downloads/Yvuug2016TimeTable.xlsx" target="_blank">YVU- UG Instant Examination Time Table-June 2016</a> - posted on 16-6-2016</li><li><a href="downloads/New B.Ed. Colleges Notification.jpg" target="_blank">Affiliated Colleges-Proposals called for granting of temporary affiliation for new B.Ed colleges for the academic year 2016-17</a> - posted on 16-6-2016</li><li><a href="downloads/Revised LLB TIME TABLE.pdf" target="_blank">3rd year and 5th year LAW Examinations--Time-Table--June-2016</a> - posted on 9-6-2016</li><li><a href="downloads/YVUCET16-RESULTS.pdf" target="_blank">YVUCET-2016 Results</a> - posted on 4-6-2016</li><li><a href="downloads/INSTANT -2016.docx" target="_blank">Notification for UG Degree Instant Examination (regular)-2016    </a> - posted on 4-6-2016</li><li><a href="downloads/YVUCET-2016 Exam Schedule.docx" target="_blank">YVUCET-2016 - Examination Schedule</a> - posted on 27-5-2016</li><li><a href="downloads/Convocation guidelines1.doc" target="_blank">Convocation Notification and Guidelines</a> - posted on 25-5-2016</li><li><a href="downloads/YVUCET-2016 Examination Schedule-1.docx" target="_blank">YVUCET-2016 - Examination Schedule</a> - posted on 25-5-2016</li><li><a href="downloads/LLB5NET2.XLS" target="_blank">Law Revaluation Results 2015- 5yr II SEM</a> - posted on 16-5-2016</li><li><a href="downloads/LLB5NET4.XLS" target="_blank">Law Revaluation Results 2015- 5yr IV SEM</a> - posted on 16-5-2016</li><li><a href="downloads/LLB5NET6.XLS" target="_blank">Law Revaluation Results 2015- 5yr VI SEM</a> - posted on 16-5-2016</li><li><a href="downloads/LLB5NET8.XLS" target="_blank">Law Revaluation Results 2015- 5yr VIII SEM</a> - posted on 16-5-2016</li><li><a href="downloads/LLB5NET10.XLS" target="_blank">Law Revaluation Results 2015- 5yr X SEM</a> - posted on 16-5-2016</li><li><a href="downloads/LLB3NET2.XLS" target="_blank">Law Revaluation Results 2015- 3yr II SEM</a> - posted on 16-5-2016</li><li><a href="downloads/LLB3NET4.XLS" target="_blank">Law Revaluation Results 2015- 3yr IV SEM</a> - posted on 16-5-2016</li><li><a href="downloads/LLB3NET6.XLS" target="_blank">Law Revaluation Results 2015-  3yr  VI SEM</a> - posted on 16-5-2016</li><li><a href="downloads/Extension of application date-YVUCET-2016 (1).pdf" target="_blank">The last date for receiving YVUCET-2016 application is extended up to 16-05-2016 without any fine and up to 19-05-2016 with a fine of Rs. 500/-. Further, the last date for submission of filled in application through online is extended up to 23-05-2016</a> - posted on 10-5-2016</li><li><a href="downloads/affiliation.pdf" target="_blank">Extension of last date of submission of proposals for permanent/Temporary affiliation 2016-2017 -College Development Council YVU</a> - posted on 21-4-2016</li><li><a href="downloads/Law exam-fee-schedule.pdf" target="_blank">3/5 year Law Examinations schedule and Examination fee structure to be conducted in May 2016</a> - posted on 20-4-2016</li><li><a href="downloads/bed Revised Time Table.pdf" target="_blank">B.Ed Examinations I Semester Time Table (2015-16) (Revised)</a> - posted on 13-4-2016</li><li><a href="downloads/Date extension letter.doc" target="_blank">College Development Council- Extension of last date for submitting proposal for permanent/temporary affiliation for the academic year 2016-17 from the existing Govt./Aided/Unaided/Private affiliated colleges offering UG/PG/Law/B.Ed/M.Ed/ UGDPEd/B.P.Ed/M.P.Ed courses</a> - posted on 12-4-2016</li><li><a href="downloads/BEDRVNET.pdf" target="_blank">B.Ed Revaluation Results (2014-2015)</a> - posted on 12-4-2016</li><li><a href="downloads/Date Extention.jpg" target="_blank">College Development Council, YVU. Extension of last date for submitting proposals for affiliation for academic year 2016-17 from the existing colleges offering courses UG/PG/Law/B.Ed/M.Ed/UGDPEd/B.P.Ed/M.P.Ed courses.</a> - posted on 2-4-2016</li><li><a href="downloads/CBCS -First Year-Second Sem.- TIME TABLE APRIL 2016.doc" target="_blank">UG Degree Examinations-First Year-Second Semester (CBCS) -Time Table-2016 April-May</a> - posted on 23-3-2016</li><li><a href="downloads/Time Table - 2016 (FINAL YEAR).rtf" target="_blank">UG Degree Examinations-Final Year-Time Table-2016 April-May</a> - posted on 23-3-2016</li><li><a href="downloads/Time Table - 2016 (SECOND YEAR).rtf" target="_blank">UG Degree Examinations-Second Year-Time Table-2016 April-May</a> - posted on 23-3-2016</li><li><a href="downloads/Time Table - 2016 (FIRST YEAR).rtf" target="_blank"> UG Degree Examinations-First Year-Time Table-2016 April-May</a> - posted on 23-3-2016</li><li><a href="downloads/YVUCET-2016 Advertisement.docx" target="_blank">Director of admissions- YOGI VEMANA UNIVERSITY, KADAPA YVUCET-2016 :: NOTIFICATION</a> - posted on 22-3-2016</li><li><a href="downloads/DST-SERB Notifiction, Dr. P. S. Sha Valli Khan, Department o.docx" target="_blank">Department of Botany- Appointment of Project Fellow-DST-SERB-Project- Last Date 28.03.2016</a> - posted on 17-3-2016</li><li><a href="downloads/Web call letter.docx" target="_blank"> Department of Economics- UGC Project-  Project Fellow- Interview (Intimation for Applied  Candidates only) - 21-03-2016- 10.00 A.M- Details</a> - posted on 14-3-2016</li><li><a href="downloads/fwdnotification201617.zip" target="_blank"> Notification for Affiliation - Form 3 - Details - Rules and Regulations.</a> - posted on 9-3-2016</li><li><a href="downloads/UG-EXAM DATES.doc" target="_blank">UG Theory Examination Dates - First - Second and Third Years </a> - posted on 7-3-2016</li><li><a href="downloads/Higher Education Survey.zip" target="_blank">Affiliated Colleges- Higher Education Survey- 2014-2015, 2015-2016 - Academic years</a> - posted on 2-3-2016</li><li><a href="downloads/DEpt profiles.pdf" target="_blank">Department of Physical Education and Sports Sciences- Faculty Profile</a> - posted on 2-3-2016</li><li><a href="downloads/RV.pdf" target="_blank"> UG I Semester - Revaluation/ Re-Totaling/ Personal Identification - Notification -Last Date without Fine 14.03.2016</a> - posted on 1-3-2016</li><li>The Notification for conducting of YVUCET-2016, for PG Integrated and Fine Arts Courses will be released very shortly.  - posted on 1-3-2016</li><li><a href="downloads/EXAM FEE II SEM.pdf" target="_blank">UG II SEMESTER - EXAMINATIONS - APRIL 2016- FEE SCHEDULE</a> - posted on 1-3-2016</li><li><a href="http://www.yogivemanauniversity.ac.in/results.php" target="_blank">UG SEM I Results Published</a> - posted on 28-2-2016</li><li><a href="downloads/Project Fellow Notification.jpg" target="_blank"> Department of Physics- ISRO- GBP Project- Notification for Project Fellow- Purely Temporary- Last Date 15.03.2016</a> - posted on 25-2-2016</li>                    </ul>
+               </div>
+               <div id="tab2" class="tab_content">
+               <!-- News -->
+                    <ul>
+                    <li>News will be updated soon.</li>                </ul>
+              </div>
+              <div id="tab3" class="tab_content">
+              <!-- Events -->
+                    <ul>
+					<li><a href="downloads/yogitechece2k17g.rar" target="_blank">Y.S.R. Engineering College of Yogi Vemana University, Proddatur-One Day National Level Students Tech Fest YOGITECH ECE-2K17-March25, 2017</a> - posted on 22-3-2017</li><li><a href="downloads/BTBI Seminar.pdf" target="_blank">Brochure-Deptofbiotechnology&bioinformatics-Nationalseminar</a> - posted on 9-12-2016</li><li><a href="downloads/BROCHUR-YOGITECH2K15.pdf" target="_blank">YOGITECH-2015-- Two Day National Level Workshop on Matlab, Embedded Systems & HDL - 26-27th March, 2015- Brochure </a> - posted on 25-3-2015</li><li><a href="downloads/Brochure201415.doc" target="_blank">Department of Earth Science - UGC Sponsored National Workshop on Recent   Techniques and Applications  in Earth Resources  - 26th March, 2015- Brochure</a> - posted on 24-3-2015</li><li><a href="downloads/mcadeptseminarbrochure.pdf" target="_blank">Department of Computer Applications- National Seminar on Research Challenges and Issues in Big Data and Cloud Computing - March 27th 2015- Brochure </a> - posted on 16-3-2015</li><li><a href="downloads/YVU_Brochure _RTP-2015.pdf" target="_blank">Department of Physics - National Seminar  on Recent Trends in Physics  - March 29th 2015- Brochure</a> - posted on 16-3-2015</li><li><a href="downloads/NCETSS-2015 (1).pdf" target="_blank"> UGC Sponsored National Seminar on Emerging Trends in Service Sector in India -20th  March 2015- brochure</a> - posted on 14-3-2015</li><li><a href="downloads/mba workshop.zip" target="_blank">Department of Business Management - UGC Sponsored National Workshop on  Attitude  Management - 12th - 17th March - Brochure and Invitation</a> - posted on 11-3-2015</li><li><a href="downloads/Broucher_RTGS_-_15.pdf" target="_blank">Department of Geology-One day National Workshop on â€œRecent Trends in Geosciences RTGS-15â€, Sponsored by UGC, on 13-03-2015- Brochure </a> - posted on 11-3-2015</li><li><a href="downloads/NATIONAL SYMPOSIUM ON EMERGING TRENDS IN ENVIRONMENT-CONSERVATION-PUBLIC AWARENESS-BROACHURE.docx" target="_blank">Department of Environmental Science & Department of Journalism and Communication- Two Day National  Symposium on Environment- Conservation - Public Awareness- March 14th & 15th 2015- Brochure</a> - posted on 10-3-2015</li><li><a href="downloads/Brochure English.dot" target="_blank">Department of English- UGC Sponsored- One Day National Symposium on Modern Fiction- 19th March, 2015</a> - posted on 7-3-2015</li><li><a href="downloads/Genetics brochure.docx" target="_blank">Department of Genetics & Genomics- UGC  Sponsored One Day Symposium ON GENOMICS; A GATEWAY TO FUTURE</a> - posted on 7-3-2015</li><li><a href="downloads/Seminarbrochure2015.pdf" target="_blank">Department of Microbiology- National Seminar on Frontiers in Microbiology- 18th March , 2015.</a> - posted on 5-3-2015</li><li><a href="downloads/BROUCHER2.pdf" target="_blank">Department of Mathematics-  UGC Sponsored -Two Day National Seminar on  Frontiers in Mathematics- 18 & 19th March 2015.</a> - posted on 5-3-2015</li><li><a href="downloads/RTBT2015 Broucherfinal.pdf" target="_blank">National Workshop on Recent Trends in Biotechnology- 12th March, 2015</a> - posted on 5-3-2015</li><li><a href="downloads/National seminar KR.pdf" target="_blank">National Seminar on Recent Trends in Biotechnology & Bioinformatics- 25th March 2015</a> - posted on 5-3-2015</li><li><a href="downloads/YVU-MSNT-Seminar2015.pdf" target="_blank">Department of Materials Science & Nanotechnology -National Seminar on RECENT ADVANCES IN FUNCTIONAL MATERIALS (RAFM - 2015) -15.03.2015</a> - posted on 5-3-2015</li><li><a href="downloads/ncpbee-2015.pptx 1.pdf" target="_blank">Department of Chemistry- National Seminar on Chemistry for Pharmaceutical , Biological, Energy and Environmental Application ( NCPBEE)- 19th March, 2015</a> - posted on 4-3-2015</li><li><a href="downloads/PSPAconferencebrochureandwelcomeletter.zip" target="_blank"> Department of Political Science & Public Administration- National Seminar on  Social Inclusion and Exclusion - March 11, 2015. - Brochure and Invitation Letter </a> - posted on 4-3-2015</li><li><a href="downloads/Zoology Workshop 2015n.pdf" target="_blank"> Department of Zoology- One Day National Workshop on Role of Animals as an Experimental Tools-13th March 2015</a> - posted on 4-3-2015</li><li><a href="downloads/WORK SHOP-2015.docx" target="_blank">WORSHOP ON OUTLOOK FOR THE UNION BUDGET-2015 AND ITS IMPACT ON ECONOMY </a> - posted on 4-3-2015</li>                    </ul>
+               </div>
+	    </div>
+        <!--panel2 ends-->
+        </div>
+        <div id="panel4">
+        <!--panel3 Open-->
+        <div id="message">
+		<!--	<h2 style="font-size: 22px;">Prof. K. Rajagopal </h2>
+			<h3 style="font-size: 16px;">In-charge Vice-Chancellor</h3> -->
+          <table width="209"><tr><td width="287"><img src="images/vc.jpg" /></td>
+           </tr>
+          <tr>
+			<td class="title" style="font-weight:normal;"> Prof. Attipalli Ramachandra Reddy</td>
+		</tr><tr>
+			<td class="title" style="font-weight:normal;"> Vice-Chancellor</td>
+		</tr></table>
+       <!-- 
+         Prof.  B. Syama Sundar took over charge as the Vice - Chancellor on 15th July, 2013 . Before this asssignment he held  several academic and administarative positions at Acharya Nagarjuna University, Guntur. 
+ -->
+          <br />
+        </div><br />         
+        <!--   <div id="message">
+          <table width="235"><tr><td width="160"><img src="images/regv_2.jpg" /></td>
+           <td width="65" class="title" style="text-align:center;">Registrar<br/><span style="font-size:10px;"></span></td></tr>
+          <tr><td class="title" colspan="2" height="20" style="font-weight:normal;">Prof. T. Vasanthi</td></tr></table>
+          </div>-->
+         <div style="margin:10px 10px 0 0; float:right;">Visitors Count <img src="http://www.easycounter.com/counter.php?johnson1"border="0" alt="Website Hit Counters"></div>
+		<!-- <div style="margin:10px 10px 0 0; float:right;">Today's Visitors Count : <span class="title" style="font-size:16px;">1</span>
+		 </div>-->
+		 <div style="margin:10px 0 0 0; float:right;"><div class="title">VISWAVIDYALAYA UDHEEPANA GEETAM</div>		 
+			<audio controls loop style="float:left" >
+				<source src="yogi.mp3" type="audio/mpeg">
+			</audio>&nbsp;&nbsp;&nbsp;
+			<span style="float:right"><a href="yogi.mp3" target="_blank" title="Download this song"><img src="download.png" width="30px" style="margin-top: -46px;margin-right: -13px;"/></a>></span>
+			<a href="gallery/vanammanam/"><img src="images/vanam-manam.jpg" style=" margin-top: 19px;"/></a>
+			<a href="http://www.yvudoa.org/" target="__blank" id="yvucnet" style="text-decoration:none"><h4 style="     margin-top: 50px;
+    border: 6px solid;
+    padding: 32px 40px 29px 38px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    background-color: #e0b580;">YVUCET-2017</h4></a>
+		 </div>
+  	</div>
+    <!--panel2 ends-->
+    <div class="clear"></div>
+</div>
+<!----- Content ends ---->
+
+<!-----Footer starts ---->
+<div id="footer">
+	<div class="body">
+    	<div class="site">
+        	<a href="tenders.php">Tenders</a> | <a href="downloads/rti.jpg">Right to Information Act</a></div>
+        <div class="copy">&copy; 2011 Yogi Vemana university. All rights are reserved</div><br />
+		<div class="site">
+		<b>Disclaimer :</b>
+			<p style="font-style:italic;">
+				www.yogivemanauniveristy.ac.in is the registered, authentic and official website of Yogi Vemana university, Kadapa, Andhra Pradesh. The university holds no responsibility for any advertisements/ notifications/ news items displayed in fictitious, dubious and fraudulent websites operated by illegal agencies. Browsers are requested to ascertain the veracity of the content by visiting the official website.
+			</p>
+		</div>
+    </div>
+</div>
+<!-----Footer ends ----></body>
+</html>
